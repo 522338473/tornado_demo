@@ -1,0 +1,66 @@
+*.py[cod]
+
+# C extensions
+*.so
+*.swp
+tags
+
+#docs
+
+*.lock
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+__pycache__
+node_modules
+*.bak
+npm-debug.log
+.idea
+-*-
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.vscode
+celerybeat-schedule.db
+celerybeat.pid
+upload
+celerybeat-schedule
+sdk
+etc
+fabfile.py
+dump.rdb
+tools/biz.py
+conf/production.yml
+venv
+.nginx-cert
+.nginx-conf
+app_file
+.data
+.log
+cert
+*.pem
+.conf
+build.py

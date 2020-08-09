@@ -1,0 +1,20 @@
+production:
+    shutdown_wait_seconds: 10
+    mysql:
+        host: mysql-host
+        db: mysql-db
+        port: 3306
+        user: mysql-user
+        password: mysql-password
+    mongo:
+        uri: mongodb://127.0.0.1:27017
+    memcached:
+        host: 127.0.0.1:11211
+    redis:
+        uri: redis://127.0.0.1:6379/0
+        host: 127.0.0.1
+    secret:
+        cookie_secret: cookie_secret
+        salt: salt
+
+
